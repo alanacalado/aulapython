@@ -8,7 +8,7 @@ de codigo
 '''
 # comentario de linha
 
-nome = "alana"
+nome = "alanaa"
 print(nome)
 peso = 0.0
 altura = 1.65
