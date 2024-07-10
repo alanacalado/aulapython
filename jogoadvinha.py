@@ -1,4 +1,5 @@
 import random
+import os
 
 numero_secreto = random.randint(1,20)
 
@@ -28,4 +29,5 @@ while tentativas < max_tentativas:
 if acertou:
     print(f'Parabéns! Você acertou o número secreto {numero_secreto} em {tentativas} tentativas.')
 else:
+    os.system('cls')
     print(f'Poxa, que pena! Você não conseguiu adivinhar o número secreto {numero_secreto}5.')
